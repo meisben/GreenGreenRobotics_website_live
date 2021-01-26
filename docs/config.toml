@@ -1,0 +1,6 @@
+baseURL = "https://meisben.github.io/GreenGreenRobotics_website_live/"
+languageCode = "en-us"
+title = "Green Green Robotics"
+theme = "ga-hugo-theme"
+[taxonomies]
+    category = "categories"
