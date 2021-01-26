@@ -10,6 +10,8 @@ Published at:
 
 Built with Hugo
 
+Info on deploying to github pages with hugo (for future reference) is [here](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
 ## More information
 
 Contact details are on the website
