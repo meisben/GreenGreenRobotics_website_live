@@ -7,24 +7,5 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jan 2021 17:52:35 +0000</lastBuildDate><atom:link href="https://meisben.github.io/GreenGreenRobotics_website_live/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>B</title>
-      <link>https://meisben.github.io/GreenGreenRobotics_website_live/b/</link>
-      <pubDate>Fri, 08 Jan 2021 20:03:06 +0000</pubDate>
-      
-      <guid>https://meisben.github.io/GreenGreenRobotics_website_live/b/</guid>
-      <description>Some other context in the B file</description>
-    </item>
-    
-    <item>
-      <title>This is A&#39;s title</title>
-      <link>https://meisben.github.io/GreenGreenRobotics_website_live/a/</link>
-      <pubDate>Fri, 08 Jan 2021 20:02:46 +0000</pubDate>
-      
-      <guid>https://meisben.github.io/GreenGreenRobotics_website_live/a/</guid>
-      <description>Some content in the A file
-  </description>
-    </item>
-    
   </channel>
 </rss>
