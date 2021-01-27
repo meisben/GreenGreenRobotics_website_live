@@ -26,4 +26,16 @@
     <loc>https://meisben.github.io/GreenGreenRobotics_website_live/categories/</loc>
   </url>
   
+  <url>
+    <loc>https://meisben.github.io/GreenGreenRobotics_website_live/products/iot_refillstation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meisben.github.io/GreenGreenRobotics_website_live/products/staticinfolder/</loc>
+  </url>
+  
+  <url>
+    <loc>https://meisben.github.io/GreenGreenRobotics_website_live/teststatic/</loc>
+  </url>
+  
 </urlset>
