@@ -8,31 +8,27 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Jan 2021 17:52:35 +0000</lastBuildDate><atom:link href="https://meisben.github.io/GreenGreenRobotics_website_live/products/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>iot_refillstation</title>
+      <title>automatic_refillstation</title>
       <link>https://meisben.github.io/GreenGreenRobotics_website_live/products/automatic_refill_station/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://meisben.github.io/GreenGreenRobotics_website_live/products/automatic_refill_station/</guid>
-      <description>Automatic refill station(Internet connected device)For your refill containers --[Content placeholder]</description>
+      <description>Automatic refill station(Internet connected)
+Register your interest Automatically dispenses fluid into refillable bottles.Choose your volume and walk away
+User friendly, and ideal for stores fulfilling internetordersLow energy consumption and small footprint
+Can be flexibly positioned above a bulk fluidcontainer. Avoidsmanual handling of bulk fluid containers above ground height.Low level notifications and analytics</description>
     </item>
     
     <item>
-      <title>iot_refillstation</title>
-      <link>https://meisben.github.io/GreenGreenRobotics_website_live/products/iot_refillstation/</link>
+      <title>automatic_refillstation</title>
+      <link>https://meisben.github.io/GreenGreenRobotics_website_live/products/basic_refill_station/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://meisben.github.io/GreenGreenRobotics_website_live/products/iot_refillstation/</guid>
-      <description>My First HeadingMy first paragraph.
-Somemore text</description>
-    </item>
-    
-    <item>
-      <title>Test static</title>
-      <link>https://meisben.github.io/GreenGreenRobotics_website_live/products/staticinfolder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://meisben.github.io/GreenGreenRobotics_website_live/products/staticinfolder/</guid>
-      <description>Some test text</description>
+      <guid>https://meisben.github.io/GreenGreenRobotics_website_live/products/basic_refill_station/</guid>
+      <description>Basic refill station(Open source)
+Register your interest Dispense cleaning fluids into refillable bottles.Fast, efficient electric pumping
+Low energy consumption and small footprint. Can be flexiblypositioned above a bulk fluidcontainer. Avoids manual handling of bulk fluid containers above ground height.Simple user interface
+There&#39;s only one button, no bells no whistles. Hold to dispense fluid,release to stop pumping.</description>
     </item>
     
   </channel>
