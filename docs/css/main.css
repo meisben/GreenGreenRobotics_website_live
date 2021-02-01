@@ -98,6 +98,7 @@ body{
   }
 
 
+
     
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -118,6 +119,28 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
+/* Card profile image styles
+-------------------------------------------------- */
+
+@media screen and (min-width: 1001px) {
+  .card-img-top {
+    width: 100%;
+    height: 22vw;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card-img-top {
+    width: 100%;
+    height: 80vw;
+    object-fit: cover;
+  }
+}
 
 
+/* Linkedin link decoration styles
+-------------------------------------------------- */
 
+/* a.customLink:link {color:#1e4b55;text-decoration:none;}
+a.customLink:hover {color:#1e4b55;text-decoration:none;} */
