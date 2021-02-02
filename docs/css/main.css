@@ -139,8 +139,17 @@ body {
 }
 
 
-/* Linkedin link decoration styles
+/* Contact link decoration styles
 -------------------------------------------------- */
 
-/* a.customLink:link {color:#1e4b55;text-decoration:none;}
-a.customLink:hover {color:#1e4b55;text-decoration:none;} */
+/* a.customLink:link {color:seashell;text-decoration:none;}
+a.customLink:hover {color:#1e4b55;text-decoration:none;}
+a.customLink:visited {color:seashell;text-decoration:none;} */
+
+
+/* Footer link decoration styles
+-------------------------------------------------- */
+
+a.customLink:link {color:seashell;text-decoration:none;}
+a.customLink:hover {color:#1e4b55;text-decoration:none;}
+a.customLink:visited {color:seashell;text-decoration:none;}
