@@ -16,7 +16,8 @@
       <description>Automatic refill station(Internet connected)
 Register your interest Automatically dispenses fluid into refillable bottles.Choose your volume and walk away
 User friendly, and ideal for stores fulfilling internetordersLow energy consumption and small footprint
-Can be flexibly positioned above a bulk fluidcontainer. Avoidsmanual handling of bulk fluid containers above ground height.Low level notifications and analytics</description>
+Can be flexibly positioned above a bulk fluidcontainer. Avoidsmanual handling of bulk fluid containers above ground height.Low-level notifications and analytics
+The refill station tracks how much inventory is left inyour bulk container for automatic stock keeping.</description>
     </item>
     
     <item>
@@ -57,7 +58,7 @@ There&#39;s only one button, no bells no whistles. Hold to dispense fluid,relea
       
       <guid>https://meisben.github.io/GreenGreenRobotics_website_live/products/register_interest/</guid>
       <description>Register your interest.It&#39;s a real prototype, heading for market.We&#39;re preparing to bring our products to market in 2021
-We&#39;re actively testing anditteratingto createthe right commercial products that meet customer needs.We&#39;d love for you to be involved in this journey
+We&#39;re actively testing anditeratingto createthe right commercial products that meet customer needs.We&#39;d love for you to be involved in this journey
 You can register your interest in ourproducts, as wellas indicating your interest in the beta testing program using the form below.</description>
     </item>
     
