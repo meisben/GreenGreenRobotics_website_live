@@ -5,6 +5,7 @@ bottleUseGroup = $('#bottleUse');
 bottleFillGroup = $('#bottleFill');
 groupWheel = $('#groupWheel');
 groupRobot1 = $('#groupRobot1');
+robot1Eyeballs = $('.robotEyeball')
 spurGear = $('#spurGear');
 redButton = $('#redButton');
 groupRobotArmLeft = $('#groupRobotArmLeft');
@@ -29,8 +30,8 @@ function spinWheel() {
     wheelTl.to(groupRobot1, 3, { y: "-=11", ease: Elastic.easeOut.config(1, 0.5) }, "buttonPress1");
     wheelTl.to(shadowRobot, 3, { scaleX: 0.6, scaleY: 0.6, ease: Elastic.easeOut.config(1, 0.5), transformOrigin: "center" }, "buttonPress1");
     wheelTl.to(groupRobotArmLeft, 0.4, { x: "-=4" }, "buttonPress1+=0.3");
-    wheelTl.to(redButton, 0.4, { y: "+=2" }, "buttonPress1-=0.1");
-    wheelTl.to(redButton, 0.4, { y: "-=2" }, "buttonPress1+=0.4");
+    wheelTl.to(redButton, 0.4, { y: "+=1" }, "buttonPress1-=0.1");
+    wheelTl.to(redButton, 0.4, { y: "-=1" }, "buttonPress1+=0.4");
     wheelTl.addLabel('startRotation', "buttonPress1+=0.3")
     wheelTl.fromTo(groupWheel, 3, { rotation: 0, transformOrigin: "center" }, { rotation: -180, transformOrigin: "center", ease: Linear.easeNone }, "startRotation");
     wheelTl.fromTo(bottleUseGroup, 3, { rotation: 0, transformOrigin: "center" }, { rotation: 180, transformOrigin: "center", ease: Linear.easeNone }, "startRotation");
@@ -48,8 +49,8 @@ function spinWheel() {
     wheelTl.to(groupRobot1, 3, { y: "-=11", ease: Elastic.easeOut.config(1, 0.5) }, "buttonPress2");
     wheelTl.to(shadowRobot, 3, { scaleX: 0.6, scaleY: 0.6, ease: Elastic.easeOut.config(1, 0.5), transformOrigin: "center" }, "buttonPress2");
     wheelTl.to(groupRobotArmLeft, 0.4, { x: "-=4" }, "buttonPress2+=0.3");
-    wheelTl.to(redButton, 0.4, { y: "+=2" }, "buttonPress2-=0.1");
-    wheelTl.to(redButton, 0.4, { y: "-=2" }, "buttonPress2+=0.4");
+    wheelTl.to(redButton, 0.4, { y: "+=1" }, "buttonPress2-=0.1");
+    wheelTl.to(redButton, 0.4, { y: "-=1" }, "buttonPress2+=0.4");
     wheelTl.addLabel('startRotationRetrun', "buttonPress2+=0.3")
     wheelTl.fromTo(groupWheel, 3, { rotation: -180, transformOrigin: "center" }, { rotation: -360, transformOrigin: "center", ease: Linear.easeNone }, 'startRotationRetrun');
     wheelTl.fromTo(bottleUseGroup, 3, { rotation: 180, transformOrigin: "center" }, { rotation: 360, transformOrigin: "center", ease: Linear.easeNone }, "startRotationRetrun");
@@ -106,13 +107,20 @@ function robotRockets() {
         yoyo: false,
     }, "-=0.3");
 
+}
 
+// Create robot rockets animation function
+function robotBlink() {
+    var robotBlinkTl = gsap.timeline({ repeat: -1, repeatDelay: 3.5 });
 
+    robotBlinkTl.to(robot1Eyeballs, 0.1, { scaleY: 0, repeat: 3, yoyo: true, transformOrigin: "50% 50%", ease: Power4.easeInOut });
 }
 
 // Add everything to a master timeline
 
 var masterTL = gsap.timeline({ repeat: -1, repeatDelay: 0 });
 
-masterTL.add(robotRockets());
 masterTL.add(spinWheel());
+masterTL.add(robotRockets());
+masterTL.add(robotBlink());
+
