@@ -62,14 +62,5 @@ We&#39;re actively testing anditeratingto createthe right commercial products
 You can register your interest in ourproducts, as wellas indicating your interest in the beta testing program using the form below.</description>
     </item>
     
-    <item>
-      <title>Test static</title>
-      <link>https://www.greengreenrobotics.com/teststatic/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.greengreenrobotics.com/teststatic/</guid>
-      <description>Some test static content</description>
-    </item>
-    
   </channel>
 </rss>
